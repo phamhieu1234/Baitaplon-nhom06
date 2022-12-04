@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CObsdoQ82kgWyAsPCT0LzQTiOyldqYA91oZF3zVOppotVAZ7/idCdOPwamRH3XY09Q9ZGlwEEcIjpXvnrDVr0g==",
+  "dgSpecHash": "mgMe38GOOkimtDlPxDWjElMjj7uRXnzNiOfup73x/EgJ60REC0dpcP9eLi0qL7/DxX6cFoHYgxKYYVzGKZ5/uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\BaiTapLonNhom0\\BaiTapLonNhom06-main\\BaiTapLonNhom06\\BaiTapLonNhom06.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\BaiTapLonNhom06\\BaiTapLonNhom06\\BaiTapLonNhom06\\BaiTapLonNhom06.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
