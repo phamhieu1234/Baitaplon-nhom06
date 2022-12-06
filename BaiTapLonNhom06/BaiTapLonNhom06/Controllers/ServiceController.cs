@@ -15,12 +15,13 @@ namespace BaiTapLonNhom06.Controllers
     public class ServiceController : Controller
     {
         private readonly ApplicationDbContext _context;
+        //Tr ve view index danh sach
         public ServiceController (ApplicationDbContext context)
         {
             _context = context;
         }
 
-        //Khai báo class ExcelProcess trong PersonController
+        //Khai báo class ExcelProcess trong SẻvierController
         private ExcelProcess _excelProcess = new ExcelProcess();
 
         public async Task<IActionResult> Index()
@@ -45,7 +46,7 @@ namespace BaiTapLonNhom06.Controllers
             }
             return View();
         }
-
+         // Kiểm tra DV theo id có tồn tai hay không
         private bool ServiceExists (string id)
         {
             return _context.Service.Any(e => e.ServiceID == id);

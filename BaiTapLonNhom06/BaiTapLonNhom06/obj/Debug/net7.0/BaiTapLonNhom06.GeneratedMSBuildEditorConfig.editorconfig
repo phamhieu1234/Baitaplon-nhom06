@@ -9,181 +9,181 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BaiTapLonNhom06
 build_property.RootNamespace = BaiTapLonNhom06
-build_property.ProjectDir = c:\Users\DELL\Desktop\BaiTapLonNhom06\BaiTapLonNhom06\BaiTapLonNhom06\
+build_property.ProjectDir = C:\Users\DELL\Desktop\BTLNhom06\BaiTapLonNhom06\BaiTapLonNhom06\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\DELL\Desktop\BaiTapLonNhom06\BaiTapLonNhom06\BaiTapLonNhom06
+build_property.MSBuildProjectDirectory = C:\Users\DELL\Desktop\BTLNhom06\BaiTapLonNhom06\BaiTapLonNhom06
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Create.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Delete.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Details.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Edit.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/ChucVu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Create.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Delete.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Details.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Edit.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Create.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Delete.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Details.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Edit.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Create.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhUGhvbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Delete.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhUGhvbmdcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Details.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhUGhvbmdcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Edit.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhUGhvbmdcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GiaPhong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhUGhvbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Create.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Delete.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Details.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Edit.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/GioiTinh/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Home/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Home/Privacy.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Create.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Delete.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Details.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Edit.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Room/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Create.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Delete.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Details.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Edit.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Index.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Upload.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Service/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Shared/Error.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/_ViewImports.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/_ViewStart.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/DELL/Desktop/BaiTapLonNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Shared/_Layout.cshtml]
+[C:/Users/DELL/Desktop/BTLNhom06/BaiTapLonNhom06/BaiTapLonNhom06/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-62qzy6s3md
