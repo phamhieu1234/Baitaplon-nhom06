@@ -1,4 +1,4 @@
-@model BaiTapLonNhom06.Models.Room
+@model BaiTapLonNhom06.Models.Phong
 
 @{
     ViewData["Title"] = "Edit";
@@ -6,17 +6,17 @@
 
 <h1>Edit</h1>
 
-<h4>Room</h4>
+<h4>Phong</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="RommID" />
+            <input type="hidden" asp-for="PhongID" />
             <div class="form-group">
-                <label asp-for="MaGiaPhong" class="control-label"></label>
-                <select asp-for="MaGiaPhong" class="form-control" asp-items="ViewBag.MaGiaPhong"></select>
-                <span asp-validation-for="MaGiaPhong" class="text-danger"></span>
+                <label asp-for="TienPhong" class="control-label"></label>
+                <input asp-for="TienPhong" class="form-control" />
+                <span asp-validation-for="TienPhong" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="CSVC" class="control-label"></label>

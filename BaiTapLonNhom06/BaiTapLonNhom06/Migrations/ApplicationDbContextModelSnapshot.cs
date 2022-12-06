@@ -16,19 +16,6 @@ namespace BaiTapLonNhom06.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.0");
 
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Address", b =>
-                {
-                    b.Property<string>("MaAddress")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenAddress")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaAddress");
-
-                    b.ToTable("Address");
-                });
-
             modelBuilder.Entity("BaiTapLonNhom06.Models.ChucVu", b =>
                 {
                     b.Property<string>("MaChucVu")
@@ -89,13 +76,13 @@ namespace BaiTapLonNhom06.Migrations
                     b.Property<string>("MaID")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("CMND")
                         .IsRequired()
                         .HasMaxLength(10)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("MaAddress")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("MaChucVu")
@@ -116,26 +103,11 @@ namespace BaiTapLonNhom06.Migrations
 
                     b.HasKey("MaID");
 
-                    b.HasIndex("MaAddress");
-
                     b.HasIndex("MaChucVu");
 
                     b.HasIndex("MaGioiTinh");
 
                     b.ToTable("Employee");
-                });
-
-            modelBuilder.Entity("BaiTapLonNhom06.Models.GiaPhong", b =>
-                {
-                    b.Property<string>("MaGiaPhong")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenGiaPhong")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaGiaPhong");
-
-                    b.ToTable("GiaPhong");
                 });
 
             modelBuilder.Entity("BaiTapLonNhom06.Models.GioiTinh", b =>
@@ -151,22 +123,20 @@ namespace BaiTapLonNhom06.Migrations
                     b.ToTable("GioiTinh");
                 });
 
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Room", b =>
+            modelBuilder.Entity("BaiTapLonNhom06.Models.Phong", b =>
                 {
-                    b.Property<string>("RommID")
+                    b.Property<string>("PhongID")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CSVC")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("MaGiaPhong")
+                    b.Property<string>("TienPhong")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("RommID");
+                    b.HasKey("PhongID");
 
-                    b.HasIndex("MaGiaPhong");
-
-                    b.ToTable("Room");
+                    b.ToTable("Phong");
                 });
 
             modelBuilder.Entity("BaiTapLonNhom06.Models.Service", b =>
@@ -212,12 +182,6 @@ namespace BaiTapLonNhom06.Migrations
 
             modelBuilder.Entity("BaiTapLonNhom06.Models.Employee", b =>
                 {
-                    b.HasOne("BaiTapLonNhom06.Models.Address", "Address")
-                        .WithMany()
-                        .HasForeignKey("MaAddress")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("BaiTapLonNhom06.Models.ChucVu", "ChucVu")
                         .WithMany()
                         .HasForeignKey("MaChucVu")
@@ -230,20 +194,9 @@ namespace BaiTapLonNhom06.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Address");
-
                     b.Navigation("ChucVu");
 
                     b.Navigation("GioiTinh");
-                });
-
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Room", b =>
-                {
-                    b.HasOne("BaiTapLonNhom06.Models.GiaPhong", "GiaPhong")
-                        .WithMany()
-                        .HasForeignKey("MaGiaPhong");
-
-                    b.Navigation("GiaPhong");
                 });
 #pragma warning restore 612, 618
         }

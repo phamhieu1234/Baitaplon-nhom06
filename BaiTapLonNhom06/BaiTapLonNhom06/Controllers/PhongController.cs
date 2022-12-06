@@ -10,100 +10,96 @@ using BaiTapLonNhom06.Models.Process;
 
 namespace BaiTapLonNhom06.Controllers
 {
-    public class RoomController : Controller
+    public class PhongController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public RoomController(ApplicationDbContext context)
+        public PhongController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Room
+        // GET: Phong
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Room.Include(r => r.GiaPhong);
-            return View(await applicationDbContext.ToListAsync());
+              return _context.Phong != null ? 
+                          View(await _context.Phong.ToListAsync()) :
+                          Problem("Entity set 'ApplicationDbContext.Phong'  is null.");
         }
 
-        // GET: Room/Details/5
+        // GET: Phong/Details/5
         public async Task<IActionResult> Details(string id)
         {
-            if (id == null || _context.Room == null)
+            if (id == null || _context.Phong == null)
             {
                 return NotFound();
             }
 
-            var room = await _context.Room
-                .Include(r => r.GiaPhong)
-                .FirstOrDefaultAsync(m => m.RommID == id);
-            if (room == null)
+            var phong = await _context.Phong
+                .FirstOrDefaultAsync(m => m.PhongID == id);
+            if (phong == null)
             {
                 return NotFound();
             }
 
-            return View(room);
+            return View(phong);
         }
 
-        // GET: Room/Create
-         private   StringProcess strPro = new StringProcess();
+        // GET: Phong/Create
+          private   StringProcess strPro = new StringProcess();
         public IActionResult Create()
         {
-            ViewData["MaGiaPhong"] = new SelectList(_context.GiaPhong, "MaGiaPhong", "MaGiaPhong");
-             var newroom = "MP100"; //đặt tên
-            var countroom = _context.Room.Count(); //đếm số nhân viên 
-            if (countroom  > 0)
+             var newphong = "P01"; //đặt tên
+            var countphong = _context.Phong.Count(); //đếm số nhân viên 
+            if (countphong  > 0)
             {
-                var Mancc = _context.Room.OrderByDescending(m => m.RommID).First().RommID;
-                newroom  = strPro.AutoGenerateCode(Mancc);
+                var phong = _context.Phong.OrderByDescending(m => m.PhongID).First().PhongID;
+                newphong  = strPro.AutoGenerateCode(phong);
             }
-            ViewBag.newID = newroom;
+            ViewBag.newphong = newphong;
             return View();
-            
         }
 
-        // POST: Room/Create
+        // POST: Phong/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RommID,MaGiaPhong,CSVC")] Room room)
+        public async Task<IActionResult> Create([Bind("PhongID,TienPhong,CSVC")] Phong phong)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(room);
+                _context.Add(phong);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MaGiaPhong"] = new SelectList(_context.GiaPhong, "MaGiaPhong", "MaGiaPhong", room.MaGiaPhong);
-            return View(room);
+            return View(phong);
         }
 
-        // GET: Room/Edit/5
+        // GET: Phong/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
-            if (id == null || _context.Room == null)
+            if (id == null || _context.Phong == null)
             {
                 return NotFound();
             }
 
-            var room = await _context.Room.FindAsync(id);
-            if (room == null)
+            var phong = await _context.Phong.FindAsync(id);
+            if (phong == null)
             {
                 return NotFound();
             }
-            ViewData["MaGiaPhong"] = new SelectList(_context.GiaPhong, "MaGiaPhong", "MaGiaPhong", room.MaGiaPhong);
-            return View(room);
+            return View(phong);
         }
 
-        // POST: Room/Edit/5
+        // POST: Phong/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("RommID,MaGiaPhong,CSVC")] Room room)
+        public async Task<IActionResult> Edit(string id, [Bind("PhongID,TienPhong,CSVC")] Phong phong)
         {
-            if (id != room.RommID)
+            if (id != phong.PhongID)
             {
                 return NotFound();
             }
@@ -112,12 +108,12 @@ namespace BaiTapLonNhom06.Controllers
             {
                 try
                 {
-                    _context.Update(room);
+                    _context.Update(phong);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!RoomExists(room.RommID))
+                    if (!PhongExists(phong.PhongID))
                     {
                         return NotFound();
                     }
@@ -128,51 +124,49 @@ namespace BaiTapLonNhom06.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MaGiaPhong"] = new SelectList(_context.GiaPhong, "MaGiaPhong", "MaGiaPhong", room.MaGiaPhong);
-            return View(room);
+            return View(phong);
         }
 
-        // GET: Room/Delete/5
+        // GET: Phong/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
-            if (id == null || _context.Room == null)
+            if (id == null || _context.Phong == null)
             {
                 return NotFound();
             }
 
-            var room = await _context.Room
-                .Include(r => r.GiaPhong)
-                .FirstOrDefaultAsync(m => m.RommID == id);
-            if (room == null)
+            var phong = await _context.Phong
+                .FirstOrDefaultAsync(m => m.PhongID == id);
+            if (phong == null)
             {
                 return NotFound();
             }
 
-            return View(room);
+            return View(phong);
         }
 
-        // POST: Room/Delete/5
+        // POST: Phong/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            if (_context.Room == null)
+            if (_context.Phong == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.Room'  is null.");
+                return Problem("Entity set 'ApplicationDbContext.Phong'  is null.");
             }
-            var room = await _context.Room.FindAsync(id);
-            if (room != null)
+            var phong = await _context.Phong.FindAsync(id);
+            if (phong != null)
             {
-                _context.Room.Remove(room);
+                _context.Phong.Remove(phong);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool RoomExists(string id)
+        private bool PhongExists(string id)
         {
-          return (_context.Room?.Any(e => e.RommID == id)).GetValueOrDefault();
+          return (_context.Phong?.Any(e => e.PhongID == id)).GetValueOrDefault();
         }
     }
 }

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BaiTapLonNhom06.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221125131847_Room")]
-    partial class Room
+    [Migration("20221206091443_Phong")]
+    partial class Phong
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -74,19 +74,6 @@ namespace BaiTapLonNhom06.Migrations
                     b.ToTable("Client");
                 });
 
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Drinks", b =>
-                {
-                    b.Property<string>("MaDrinks")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenDrinks")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaDrinks");
-
-                    b.ToTable("Drinks");
-                });
-
             modelBuilder.Entity("BaiTapLonNhom06.Models.Employee", b =>
                 {
                     b.Property<string>("MaID")
@@ -98,6 +85,7 @@ namespace BaiTapLonNhom06.Migrations
 
                     b.Property<string>("CMND")
                         .IsRequired()
+                        .HasMaxLength(10)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("MaChucVu")
@@ -125,32 +113,6 @@ namespace BaiTapLonNhom06.Migrations
                     b.ToTable("Employee");
                 });
 
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Food", b =>
-                {
-                    b.Property<string>("MaFood")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenFood")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaFood");
-
-                    b.ToTable("Food");
-                });
-
-            modelBuilder.Entity("BaiTapLonNhom06.Models.GiaPhong", b =>
-                {
-                    b.Property<string>("MaGiaPhong")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenGiaPhong")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaGiaPhong");
-
-                    b.ToTable("GiaPhong");
-                });
-
             modelBuilder.Entity("BaiTapLonNhom06.Models.GioiTinh", b =>
                 {
                     b.Property<string>("MaGioiTinh")
@@ -164,35 +126,50 @@ namespace BaiTapLonNhom06.Migrations
                     b.ToTable("GioiTinh");
                 });
 
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Haircuts", b =>
+            modelBuilder.Entity("BaiTapLonNhom06.Models.Phong", b =>
                 {
-                    b.Property<string>("MaHaircuts")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenHaircuts")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaHaircuts");
-
-                    b.ToTable("Haircuts");
-                });
-
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Room", b =>
-                {
-                    b.Property<string>("RommID")
+                    b.Property<string>("PhongID")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CSVC")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("MaGiaPhong")
+                    b.Property<string>("TienPhong")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("RommID");
+                    b.HasKey("PhongID");
 
-                    b.HasIndex("MaGiaPhong");
+                    b.ToTable("Phong");
+                });
 
-                    b.ToTable("Room");
+            modelBuilder.Entity("BaiTapLonNhom06.Models.Service", b =>
+                {
+                    b.Property<string>("ServiceID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("DrinkName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FoodName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("HaircutName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Number")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ServiceName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ServicePrice")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ServiceID");
+
+                    b.ToTable("Service");
                 });
 
             modelBuilder.Entity("BaiTapLonNhom06.Models.Client", b =>
@@ -223,15 +200,6 @@ namespace BaiTapLonNhom06.Migrations
                     b.Navigation("ChucVu");
 
                     b.Navigation("GioiTinh");
-                });
-
-            modelBuilder.Entity("BaiTapLonNhom06.Models.Room", b =>
-                {
-                    b.HasOne("BaiTapLonNhom06.Models.GiaPhong", "GiaPhong")
-                        .WithMany()
-                        .HasForeignKey("MaGiaPhong");
-
-                    b.Navigation("GiaPhong");
                 });
 #pragma warning restore 612, 618
         }

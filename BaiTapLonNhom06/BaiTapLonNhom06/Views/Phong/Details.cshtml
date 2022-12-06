@@ -1,4 +1,4 @@
-@model BaiTapLonNhom06.Models.Room
+@model BaiTapLonNhom06.Models.Phong
 
 @{
     ViewData["Title"] = "Details";
@@ -7,14 +7,14 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Room</h4>
+    <h4>Phong</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GiaPhong)
+            @Html.DisplayNameFor(model => model.TienPhong)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GiaPhong.MaGiaPhong)
+            @Html.DisplayFor(model => model.TienPhong)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CSVC)
@@ -25,6 +25,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.RommID">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.PhongID">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
